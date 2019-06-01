@@ -1,0 +1,29 @@
+{
+  "name": "a2zzz",
+  "version": "1.0.0",
+  "description": "Generate strings from a to zzz and beyond",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robso86/a2zzz.git"
+  },
+  "author": "Robert Moore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robso86/a2zzz/issues"
+  },
+  "homepage": "https://github.com/robso86/a2zzz#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/jest": "^24.0.13",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "typescript": "^3.5.1"
+  }
+}
