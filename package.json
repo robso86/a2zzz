@@ -6,7 +6,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,8 @@
     "babel-jest": "^24.8.0",
     "jest": "^24.8.0",
     "typescript": "^3.5.1"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
