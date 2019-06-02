@@ -33,7 +33,7 @@ for (let i = 0; i < 2; i += 1) {
     }
 }
 
-document.appendChild(table);
+document.body.appendChild(table);
 ```
 
 results in 
